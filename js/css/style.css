@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/02/2019, 17:29:19
+    Author     : kicko
+*/
+* {
+
+}
+a {
+    cursor: pointer;
+}
+a:hover,
+a:active,
+a:href,
+a:visited,
+a {
+    text-decoration: none;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+.navbar {
+    margin: 0;
+    /*padding: 0;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#left {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 3;
+    background-color: #ddd;
+    width: 160px;
+    padding: 8px;
+}
+#right {
+    position: fixed;
+    top:0;
+    right:0;
+    z-index: 3;
+    background-color: #ddd;
+    width: 160px;
+    padding: 8px;
+}
+frames-div {
+    position: fixed;
+    top:0;
+    left:350px;
+    z-index: 3;
+}
+frames-div div {
+
+    display: block;
+    width: 15px;
+    height: 40px;
+    /*padding: 10px;*/
+    background-color: #ccc;
+    float: left;
+    margin: 1px;
+}
+#colors {
+/*    width: 300px;*/
+    z-index: 3;
+}
+#keys {
+    z-index: 3;
+}
+#keys div {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    background-color: #eee;
+    border: 1px #aaa solid;
+    text-align: center;
+    margin: 1px;
+}
